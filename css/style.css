@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700,900');
+
+/* Eric Meyer CSS reset begins */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* Eric Meyer CSS reset ends */
+
+                    /*
+
+                                WEATHER WIDGET STYLE
+
+
+                    */
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #181F21;
+}
+
+h1 {
+    
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+    color: #DCD7D1;
+}
+
+.ajax-weather-widget {
+    
+    width: 600px;
+    margin: 0 auto;
+    background-color: #111B23;
+}
+
+.ajax-weather-widget button {
+    
+    width: 100%;
+    padding: 20px;
+    background-color: #98A0B1;
+    font-size: 2rem;
+    border: none;
+}
+
+.ajax-weather-widget dl {
+    
+    border: 10px solid #4E4C48;
+    text-align: center;
+}
+
+.ajax-weather-widget dt {
+    
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #FFFBEC;
+}
+
+.ajax-weather-widget dd {
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    margin: 10px;
+    color: #FFFBEC;
+}
